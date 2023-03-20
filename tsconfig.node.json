@@ -4,6 +4,6 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true,
-    "types": ["node"]
-  }
+  },
+  "include": ["vite.config.ts"]
 }
