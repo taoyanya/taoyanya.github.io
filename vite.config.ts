@@ -7,7 +7,7 @@ import * as carbon from "@iconify-json/carbon";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "./",
+  base: "/",
   plugins: [
     vue(),
     unocss({
