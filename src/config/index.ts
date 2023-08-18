@@ -1,6 +1,7 @@
 import { Config } from "./type";
 
 export const resumeConfig: Config = {
+  resumeTitle: "牟长睿的简历",
   base: {
     name: "牟长睿",
     eng: "ChangRui Mou",

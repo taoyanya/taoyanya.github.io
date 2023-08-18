@@ -39,6 +39,7 @@ interface Award {
 }
 
 export interface Config {
+  resumeTitle: string
   base: Base;
   desc: string;
   connection: Connection;

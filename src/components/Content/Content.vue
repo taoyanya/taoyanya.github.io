@@ -1,5 +1,7 @@
 <template>
-  <div class="flex justify-center items-center p-10px box-border">
+  <div
+    class="content flex justify-center items-center p-10px pt-20px box-border"
+  >
     <media-container>
       <connection :color="color" />
       <div class="mt-20px">
@@ -46,3 +48,12 @@ export default defineComponent({
   },
 });
 </script>
+
+<style scoped>
+@media (prefers-color-scheme: dark) {
+  .content {
+    background-color: var(--dark-mode);
+    color: var(--light-mode);
+  }
+}
+</style>

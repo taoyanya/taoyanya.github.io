@@ -1,5 +1,7 @@
 :root {
   --shadow: #e5e7eb;
+  --light-mode: #fdfdfd;
+  --dark-mode: #1f1f1f;
 }
 
 @font-face {

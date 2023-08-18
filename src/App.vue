@@ -2,9 +2,7 @@
   <div class="app box-border">
     <div class="main w-full rounded-md">
       <resume-header :color="color" />
-      <div class="mt-20px">
-        <resume-content :color="color" />
-      </div>
+      <resume-content :color="color" />
     </div>
   </div>
 </template>
