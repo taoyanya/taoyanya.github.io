@@ -1,5 +1,5 @@
 <template>
-  <div class="w-3/5">
+  <div class="media-container w-3/5">
     <slot></slot>
   </div>
 </template>
@@ -12,3 +12,17 @@ export default defineComponent({
   setup() {},
 });
 </script>
+
+<style scoped>
+  @media screen and (max-width: 600px) {
+  .media-container {
+    width: 98%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .media-container {
+    width: 60%;
+  }
+}
+</style>

@@ -19,6 +19,7 @@
 <script lang="ts">
 import { defineComponent, toRefs, onMounted, ref } from "vue";
 import { projectProps } from "./props";
+import { useStrongText } from "./hooks";
 import { resumeConfig } from "../../config";
 import ResumeTitle from "./Title.vue";
 import ResumeText from "./Text.vue";
@@ -31,15 +32,7 @@ export default defineComponent({
     const descList = ref<Element[]>();
 
     onMounted(() => {
-      if (descList.value) {
-        descList.value.forEach((desc) => {
-          const strongList = desc.querySelectorAll("strong");
-          strongList.forEach((strong) => {
-            strong.style.color = props.color!;
-            strong.style.fontWeight = "normal"
-          });
-        });
-      }
+      useStrongText(descList, props.color!);
     });
 
     return {

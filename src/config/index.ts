@@ -36,7 +36,7 @@ export const resumeConfig: Config = {
       end: "2022.12",
       company: "成都深云智能科技有限公司",
       content:
-        "负责自研产品的开发与维护，公司开发技术栈：Vue + uniapp，开发平台：网页开发 + H5混入开发 + 小程序开发",
+        "负责自研产品的开发与维护，公司开发技术栈：<strong>Vue + uniapp</strong>，开发平台：<strong>网页开发 + H5混入开发 + 小程序开发</strong>",
     },
   ],
   awards: [

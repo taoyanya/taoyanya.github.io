@@ -1,5 +1,5 @@
 <template>
-  <div class="app p-x-150px p-y-60px box-border">
+  <div class="app box-border">
     <div class="main w-full rounded-md">
       <resume-header :color="color" />
       <div class="mt-20px">
@@ -34,5 +34,17 @@ export default defineComponent({
 <style scoped>
 .main {
   box-shadow: 0 0 10px var(--shadow);
+}
+
+@media screen and (max-width: 600px) {
+  .app {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .app {
+    padding: 150px 60px;
+  }
 }
 </style>
