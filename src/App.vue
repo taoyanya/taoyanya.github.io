@@ -1,6 +1,6 @@
 <template>
   <div class="app box-border">
-    <div class="main w-full rounded-md">
+    <div class="main w-full">
       <resume-header :color="color" />
       <resume-content :color="color" />
     </div>
@@ -30,8 +30,9 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.main {
-  box-shadow: 0 0 10px var(--shadow);
+.app {
+  height: fit-content;
+  background-color: var(--light-bg-mode);
 }
 
 @media screen and (max-width: 600px) {
@@ -43,6 +44,12 @@ export default defineComponent({
 @media screen and (min-width: 800px) {
   .app {
     padding: 150px 60px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .app {
+    background-color: var(--dark-bg-mode);
   }
 }
 </style>

@@ -10,7 +10,7 @@ export const resumeConfig: Config = {
   },
   desc: "一名热爱前端开发的码农，主要技术栈为Vue + Typescript，熟悉Less预处理器的使用，擅长使用uniapp框架进行小程序开发；后端开发业余爱好者，对Golang语言略有了解。",
   connection: {
-    github: "https://github.com/tyy",
+    github: "https://github.com/taoyanya",
     blog: "",
     email: "2020636899@qq.com",
   },

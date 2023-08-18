@@ -1,7 +1,10 @@
 :root {
   --shadow: #e5e7eb;
+  --shadow-secondary: #f3f4f6;
   --light-mode: #fdfdfd;
-  --dark-mode: #1f1f1f;
+  --dark-mode: #1E293B;
+  --dark-bg-mode: #334155;
+  --light-bg-mode: #e4e4e7;
 }
 
 @font-face {

@@ -21,6 +21,6 @@ export default defineComponent({
 
 <style scoped>
 .text:hover {
-  box-shadow: 0 0 10px var(--shadow);
+  box-shadow: 0 0 0 2px var(--shadow), 0 0 0 1px var(--shadow-secondary);
 }
 </style>

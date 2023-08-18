@@ -1,11 +1,11 @@
 <template>
   <div>
-    <resume-title title="Projects" :color="color" />
+    <resume-title title="Project" :color="color" />
     <div class="mt-10px">
       <resume-text :color="color">
         <div class="" v-for="item of projects" :key="item.name">
-          <div>名称: {{ item.name }}</div>
-          <div class="mt-5px" v-if="item.link">链接: {{ item.link }}</div>
+          <div>名称:{{ item.name }}</div>
+          <div class="mt-5px" v-if="item.link">链接:{{ item.link }}</div>
           <div class="flex mt-5px">
             <div class="flex-none">简介:</div>
             <div class="leading-normal" v-html="item.desc" ref="descList"></div>

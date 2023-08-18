@@ -8,6 +8,7 @@
 
 <script lang="ts">
 import { computed, defineComponent, ref } from "vue";
+import { resumeConfig } from "../../config";
 
 export default defineComponent({
   name: "Avatar",
@@ -19,6 +20,7 @@ export default defineComponent({
     return {
       active,
       activeClass,
+      resumeConfig,
     };
   },
 });

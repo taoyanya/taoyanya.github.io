@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full min-h-1/4 text-light-50 flex justify-center items-center flex-col p-20px box-border"
+    class="w-full min-h-1/4 text-light-50 flex justify-center items-center flex-col p-20px box-border overflow-hidden"
     :style="style"
   >
     <media-container>
