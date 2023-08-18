@@ -5,8 +5,6 @@ import { presetIcons } from "unocss";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    vue(),
-    unocss(),
-  ],
+  base: "./",
+  plugins: [vue(), unocss()],
 });
