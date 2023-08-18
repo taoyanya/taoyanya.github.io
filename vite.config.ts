@@ -5,6 +5,9 @@ import { presetIcons } from "unocss";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "./",
+  base: "/taoyanya/",
   plugins: [vue(), unocss()],
+  build: {
+    outDir: "docs"
+  }
 });
