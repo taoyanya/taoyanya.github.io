@@ -1,0 +1,48 @@
+:root {
+  --shadow: #e5e7eb;
+}
+
+@font-face {
+  font-family: "resume-icon";
+  src: url('./style/iconfont.woff2') format('woff2'),
+    url('./style/iconfont.woff') format('woff'),
+    url('./style/iconfont.ttf') format('truetype');
+}
+
+.resume-icon {
+  font-family: "resume-icon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-man:before {
+  content: "\e7e2";
+}
+
+.icon-woman:before {
+  content: "\e8f1";
+}
+
+.icon-email:before {
+  content: "\e651";
+}
+
+.icon-github:before {
+  content: "\e652";
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#app,
+.app {
+  width: 100%;
+  height: 100%;
+}

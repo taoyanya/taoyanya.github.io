@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "resume-icon"; /* Project id 4215667 */
+  src: url('iconfont.woff2?t=1692329040814') format('woff2'),
+       url('iconfont.woff?t=1692329040814') format('woff'),
+       url('iconfont.ttf?t=1692329040814') format('truetype');
+}
+
+.resume-icon {
+  font-family: "resume-icon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-man:before {
+  content: "\e7e2";
+}
+
+.icon-woman:before {
+  content: "\e8f1";
+}
+
+.icon-email:before {
+  content: "\e651";
+}
+
+.icon-github:before {
+  content: "\e652";
+}
+
