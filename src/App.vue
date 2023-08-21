@@ -43,13 +43,19 @@ export default defineComponent({
 
 @media screen and (min-width: 800px) {
   .app {
-    padding: 150px 60px;
+    padding: 60px;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   .app {
     background-color: var(--dark-bg-mode);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .app {
+    background-color: var(--light-bg-mode);
   }
 }
 </style>

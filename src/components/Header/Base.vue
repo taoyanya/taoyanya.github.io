@@ -6,10 +6,10 @@
       <div>{{ resumeConfig.base.eng }}</div>
     </div>
     <div class="text-xs flex mt-5px">
-      <div class="p-x-6px p-y-1px border-box bg-light-50 rounded" :style="style">
+      <div class="p-x-6px box-border bg-light-50 rounded" :style="style">
         <i class="resume-icon" :class="[fontClass]"></i>
       </div>
-      <div class="ml-5px p-x-6px p-y-1px border-box bg-light-50 rounded" :style="style">
+      <div class="ml-5px p-x-6px box-border bg-light-50 rounded" :style="style">
         {{ resumeConfig.base.age }}
       </div>
     </div>

@@ -10,6 +10,8 @@ export const useStrongText = (
       strongList.forEach((strong) => {
         strong.style.color = color;
         strong.style.fontWeight = "normal";
+        strong.style.display = "inline-block"
+        strong.style.margin= "0 5px"
       });
     });
   }

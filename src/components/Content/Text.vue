@@ -1,5 +1,5 @@
 <template>
-  <div class="text p-8px border-box rounded">
+  <div class="text p-8px box-border rounded transition duration-500">
     <slot></slot>
   </div>
 </template>
@@ -21,6 +21,7 @@ export default defineComponent({
 
 <style scoped>
 .text:hover {
+  cursor: pointer;
   box-shadow: 0 0 0 2px var(--shadow), 0 0 0 1px var(--shadow-secondary);
 }
 </style>

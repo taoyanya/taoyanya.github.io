@@ -26,7 +26,7 @@ export const resumeConfig: Config = {
   projects: [
     {
       name: "my-resume",
-      desc: "生成自定义的线上简历，项目使用<strong>Vite + Vue + Typescript + Unocss</strong>，只需要定义配置文件，就可以生成DIY Resume",
+      desc: "生成自定义的线上简历，项目使用<strong>Vite + Vue + Typescript + Unocss</strong>，只需要定义配置文件，就可以生成<strong>DIY Resume</strong>",
       link: "",
     },
   ],
