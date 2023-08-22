@@ -56,4 +56,10 @@ export default defineComponent({
     color: var(--light-mode);
   }
 }
+
+@media (prefers-color-scheme: light) {
+  .content {
+    background-color: #fff;
+  }
+}
 </style>
